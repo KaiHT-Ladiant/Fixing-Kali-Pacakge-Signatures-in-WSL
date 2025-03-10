@@ -5,6 +5,14 @@
 
 Automated scripts to resolve package signature issues in Kali Linux WSL environments.
 
+## Important Note
+The batch file (`fix-kali-host.bat`) must be used with ANSI encoding and CRLF line endings to work properly on Windows systems. If you're downloading or cloning this repository, the `.gitattributes` file should ensure correct line endings.
+
+If you experience encoding issues:
+1. Open the batch file in Notepad
+2. Save As > Encoding: ANSI
+3. Ensure line endings are Windows (CRLF)
+4. 
 ## Prerequisites
 - Windows 10/11 with WSL2
 - Kali Linux WSL distribution installed
