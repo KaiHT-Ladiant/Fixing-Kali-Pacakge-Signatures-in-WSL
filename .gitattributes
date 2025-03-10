@@ -1,2 +1,2 @@
-*.bat text eol=crlf diff=astextplain
-*.sh text eol=lf
+*.bat text eol=crlf encoding=cp1252
+*.sh text eol=lf encoding=utf-8
