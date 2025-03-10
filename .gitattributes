@@ -1,0 +1,2 @@
+*.bat text eol=crlf diff=astextplain
+*.sh text eol=lf
